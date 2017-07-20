@@ -26,7 +26,7 @@
       redirectTo: 'auth.login'
     })
     .state('auth.login',{
-      url : '/auth/login',
+      url : '/login',
       component: 'login'
     });
   };
