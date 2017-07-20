@@ -16,7 +16,7 @@
   RoutesConfig.$inject=['$stateProvider','$urlRouterProvider'];
   function RoutesConfig($stateProvider, $urlRouterProvider) {
     // Redirect to home page if no other URL matches
-    $urlRouterProvider.otherwise('/auth/login');
+    $urlRouterProvider.otherwise('/auth');
     // *** Set up UI states ***
     $stateProvider
     // Home page
