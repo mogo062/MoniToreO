@@ -21,7 +21,7 @@
     $stateProvider
     // Home page
     .state('auth', {
-      url : '/',
+      url : '/auth',
       template: '<div ui-view></div>',
       redirectTo: 'auth.login'
     })
